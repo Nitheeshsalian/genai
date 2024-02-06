@@ -1,0 +1,30 @@
+{
+  "name": "genai",
+  "version": "1.0.0",
+  "description": "genai solution for auditlogs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect main.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nitheeshsalian/genai.git"
+  },
+  "keywords": [
+    "genai",
+    "vector",
+    "mongo"
+  ],
+  "author": "nitheesh saliyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitheeshsalian/genai/issues"
+  },
+  "homepage": "https://github.com/Nitheeshsalian/genai#readme",
+  "dependencies": {
+    "mongo": "^0.1.0",
+    "openai": "^4.26.1"
+  }
+}
