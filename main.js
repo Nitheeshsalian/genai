@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 import OpenAI from "openai";
 
-const openai = new OpenAI({ apiKey: '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' });
+const openai = new OpenAI({ apiKey: '' });
 
 const client = new MongoClient("mongodb+srv://admin:admin@cluster0.ls5ezu2.mongodb.net/");
 const hf_token = process.env.HF_ACCESS_TOKEN;
